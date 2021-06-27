@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//
+// Main.swift
+// Lesson 7 Challenge
+//
+// Created by Marcus A. Mosley on 2021-01-20
+//
+
+import SwiftUI
+import UIKit
+import PlaygroundSupport
+
+// Exercise #1
+func goodMorning() {   
+    
+    print("Good Morning")
+}
+
+goodMorning()
+
+// Exercise #2
+func printTotalWithTax(subtotal:Double) {   
+    
+    print("The total is \(subtotal * 1.13)")
+}
+
+printTotalWithTax(subtotal: 60)
+
+// Exercise #3
+func getTotalWithTax(subtotal:Double) -&gt; Double {   
+    
+    return subtotal * 1.13
+}
+
+var total = getTotalWithTax(subtotal: 60)
+print("The total is \(total)")
+
+// Exercise #4
+func calculateTotalWithTax(subtotal:Double, tax:Double) -&gt; Double {   
+    
+    return subtotal * (1 + tax)
+}
+
+total = calculateTotalWithTax(subtotal: 60, tax:  0.11)
+print("The total is \(total)")
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 769}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
